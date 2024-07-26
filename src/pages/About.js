@@ -13,21 +13,33 @@ const About = () => {
           gained through internships and academic projects. During my
           internship, I honed my skills in front-end and back-end development,
           gaining proficiency in technologies such as HTML, CSS, JavaScript,
-          Node.js, and ReactJS. As for the database, i used MSSQL. My capstone
-          project showcases my ability to design and develop scalable web
-          applications that meet business needs effectively. I leveraged
-          frameworks like ASP.net (web form - based application) and Firebase to
-          create responsive and dynamic user interfaces, alongside implementing
-          robust server-side functionalities. Throughout my academic journey, I
-          undertook various school projects that further enriched my
-          understanding of software development principles. These projects
-          allowed me to experiment with different technologies, improving my
-          problem-solving skills and creativity. I am committed to continuous
-          learning and staying updated with the latest technologies in web
-          development. I am eager to contribute my skills and expand my
-          knowledge in a dynamic and innovative environment. Let's connect and
-          explore opportunities to create impactful solutions together!
+          Node.js, and ReactJS. As for the database, I used MSSQL.
         </p>
+        <p>
+          My capstone project showcases my ability to design and develop
+          scalable web applications that meet business needs effectively. I
+          leveraged frameworks like ASP.net (web form - based application) and
+          Firebase to create responsive and dynamic user interfaces, alongside
+          implementing robust server-side functionalities.
+        </p>
+        <p>
+          Throughout my academic journey, I undertook various school projects
+          that further enriched my understanding of software development
+          principles. These projects allowed me to experiment with different
+          technologies, improving my problem-solving skills and creativity.
+        </p>
+        <p>
+          I am committed to continuous learning and staying updated with the
+          latest technologies in web development. I am eager to contribute my
+          skills and expand my knowledge in a dynamic and innovative
+          environment. My goal is to build impactful solutions and continue
+          growing in my career.
+        </p>
+        <strong>
+          Let's connect and explore opportunities to create impactful solutions
+          together!
+        </strong>
+
         <strong>My technology skillset includes:</strong>
         <ul>
           <li>

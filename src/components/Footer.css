@@ -1,0 +1,57 @@
+/* FOOTER STYLES */
+
+/* General Footer Styling */
+footer {
+    padding: 20px;
+    background-color: #f1f1f1; /* Adjust the color as needed */
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+  }
+  
+  /* Footer Container */
+  .footer {
+    background-color: #343e47;
+    width: 100%;
+    color: white; /* Default text color */
+  }
+  
+  /* Footer Content */
+  .footer-content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Footer Text */
+  .footer-copywright {
+    margin-top: 20px;
+  }
+  
+  .footer-body {
+    margin-bottom: 20px;
+  }
+  
+  .footer h3 {
+    font-size: 1em;
+    color: white;
+    margin: 0.5em 0;
+  }
+  
+  /* Footer Icons */
+  .footer-icons {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding: 0;
+  }
+  
+  /* Responsive Footer Styling */
+  @media (max-width: 767px) {
+    .footer-content {
+      padding: 15px;
+    }
+  
+    .footer h3 {
+      font-size: 0.9em;
+    }
+  }
+  

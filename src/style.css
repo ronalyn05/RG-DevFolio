@@ -91,8 +91,8 @@ html, body, #root {
 
   /* Style for footer */
   footer {
-    margin-top: auto;
-    padding: 10px;
+    margin-top: auto; 
+    padding: 20px;
     background-color: #f1f1f1; /* Adjust the color as needed */
     text-align: center;
   }
@@ -916,3 +916,33 @@ html, body, #root {
       flex-direction: column;
     }
   }
+
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text inside the container */
+  }
+  
+  .description {
+    margin-bottom: 20px; /* Adjust spacing as needed */
+  }
+  
+  .download-button-container {
+    margin: 20px 0; /* Space above and below the button */
+  }
+  
+  .download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff; /* Adjust color as needed */
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .download-button:hover {
+    background-color: #0056b3; /* Adjust hover color as needed */
+  }
+  
