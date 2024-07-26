@@ -3,6 +3,9 @@ import myImg from "../assets/image1.JPG";
 import resume from "../assets/Giducos_updated Resume.pdf";
 import Footer from "../components/Footer.js";
 import "./Home.css";
+import TypeWriter from "../pages/TypeWriter.js";
+import SocialMedia from "../components/SocialMedia";
+import { Container, Row, Col } from "react-bootstrap";
 
 const Home = () => {
   return (
@@ -11,11 +14,18 @@ const Home = () => {
         <h1 className="greeting">
           Hello there! <span className="wave">👋</span>
         </h1>
-        <h1>I'm Ronalyn Giducos!</h1>
-        <div className="job-titles">
+        {/* <h1>I'm Ronalyn Giducos!</h1> */}
+        <h1 className="heading-name">
+          I'M
+          <strong className="main-name"> Ronalyn Giducos!</strong>
+        </h1>
+        {/* <div className="job-titles">
           <h4 className="software-engineer">Software Engineer</h4>
-        </div>
+        </div> */}
       </header>
+      <div className="heading-type">
+        <TypeWriter />
+      </div>
       <br />
 
       <section className="home-intro">
@@ -60,6 +70,23 @@ const Home = () => {
           <img src={myImg} alt="Profile" className="home-profile-picture" />
         </div>
       </section>
+      <Container fluid className="home-about-section" id="about">
+        <Container>
+          <Row>
+            <Col md={12} className="home-about-social">
+              <h1>Get in Touch</h1>
+              <p>
+                {" "}
+                Whether you want to get in touch, or talk about a project
+                collaboration.
+                <br />
+                <strong>Feel free to connect with me</strong>
+              </p>
+              <SocialMedia />
+            </Col>
+          </Row>
+        </Container>
+      </Container>
 
       {/* Footer */}
       <Footer />
