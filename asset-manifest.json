@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/RG-DevFolio/static/css/main.02a27441.css",
-    "main.js": "/RG-DevFolio/static/js/main.22b81ae7.js",
+    "main.css": "/RG-DevFolio/static/css/main.256c6753.css",
+    "main.js": "/RG-DevFolio/static/js/main.d21f4255.js",
     "static/media/image1.JPG": "/RG-DevFolio/static/media/image1.f7259c4d3c5e9123b8cb.JPG",
-    "static/media/Giducos_updated Resume.pdf": "/RG-DevFolio/static/media/Giducos_updated Resume.0978225234bc5523e2c9.pdf",
-    "static/media/logo.png": "/RG-DevFolio/static/media/logo.1032fd4ed5276be1d968.png",
+    "static/media/logo1.png": "/RG-DevFolio/static/media/logo1.57154792aada50919f6b.png",
+    "static/media/Giducos_updated Resume.pdf": "/RG-DevFolio/static/media/Giducos_updated Resume.453335c1baca83eff23c.pdf",
     "index.html": "/RG-DevFolio/index.html",
-    "main.02a27441.css.map": "/RG-DevFolio/static/css/main.02a27441.css.map",
-    "main.22b81ae7.js.map": "/RG-DevFolio/static/js/main.22b81ae7.js.map"
+    "main.256c6753.css.map": "/RG-DevFolio/static/css/main.256c6753.css.map",
+    "main.d21f4255.js.map": "/RG-DevFolio/static/js/main.d21f4255.js.map"
   },
   "entrypoints": [
-    "static/css/main.02a27441.css",
-    "static/js/main.22b81ae7.js"
+    "static/css/main.256c6753.css",
+    "static/js/main.d21f4255.js"
   ]
 }
