@@ -5,7 +5,7 @@
   justify-content: space-between; /* Aligns logo and links to the edges */
   align-items: center; /* Vertically centers the items */
   padding: 10px 20px; /* Adjust padding as needed */
-  background-color: #333; /* Background color of the navbar */
+  background-color: #e5e7ec; /* Background color of the navbar */
 }
 
 .navbar-logo {
@@ -31,7 +31,7 @@
 
 .navbar-links a {
   text-decoration: none; /* Remove underline from links */
-  color: #fff; /* Link text color */
+  color: #2b4d8b; /* Link text color */
   font-weight: bold; /* Make text bold */
   font-size: 16px; /* Adjust font size as needed */
 }

@@ -3,6 +3,7 @@ import React from "react";
 import "../style.css";
 import myImg from "../assets/image1.JPG";
 import resume from "../assets/Giducos_updated Resume.pdf";
+import Footer from "../components/Footer.js";
 
 const Home = () => {
   return (
@@ -44,6 +45,8 @@ const Home = () => {
         </div>
         <img src={myImg} alt="Profile" className="home-profile-picture" />
       </section>
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };

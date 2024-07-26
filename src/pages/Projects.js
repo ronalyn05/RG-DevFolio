@@ -1,5 +1,6 @@
 // src/pages/Projects.js
 import React from "react";
+import Footer from "../components/Footer.js";
 
 const Projects = () => {
   return (
@@ -9,6 +10,8 @@ const Projects = () => {
         Details about your projects will go here. You can showcase different
         projects and their descriptions.
       </p>
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };
