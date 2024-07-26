@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/RG-DevFolio/static/css/main.f3bc625d.css",
+    "main.js": "/RG-DevFolio/static/js/main.27d32e78.js",
+    "static/media/image1.JPG": "/RG-DevFolio/static/media/image1.31d97d6f88e4b12c84ea.JPG",
+    "static/media/Giducos_updated Resume.pdf": "/RG-DevFolio/static/media/Giducos_updated Resume.0978225234bc5523e2c9.pdf",
+    "static/media/logo.png": "/RG-DevFolio/static/media/logo.1032fd4ed5276be1d968.png",
+    "index.html": "/RG-DevFolio/index.html",
+    "main.f3bc625d.css.map": "/RG-DevFolio/static/css/main.f3bc625d.css.map",
+    "main.27d32e78.js.map": "/RG-DevFolio/static/js/main.27d32e78.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3bc625d.css",
+    "static/js/main.27d32e78.js"
+  ]
+}
