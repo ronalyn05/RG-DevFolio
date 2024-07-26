@@ -27,7 +27,7 @@ const Home = () => {
             <a href={resume} target="_blank" rel="noopener noreferrer">
               View My Resume
             </a>
-            <a
+            {/* <a
               href="https://www.linkedin.com/in/giducos-ronalyn-0794922b0"
               target="_blank"
               rel="noopener noreferrer"
@@ -40,7 +40,7 @@ const Home = () => {
               rel="noopener noreferrer"
             >
               GitHub
-            </a>
+            </a> */}
           </div>
         </div>
         <img src={myImg} alt="Profile" className="home-profile-picture" />
