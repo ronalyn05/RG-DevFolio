@@ -23,7 +23,7 @@ const Home = () => {
           <h4 className="software-engineer">Software Engineer</h4>
         </div> */}
       </header>
-      <div className="heading-type">
+      <div className="typewriter-wrapper">
         <TypeWriter />
       </div>
       <br />

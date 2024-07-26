@@ -373,12 +373,12 @@ html, body, #root {
   .heading-description {
     margin-left: 20px !important;
   }
-  .heading-type {
+  /* .heading-type {
     padding-left: 15px;
     text-align: "left";
   }
-  
-  .heading {
+   */
+  /* .heading {
     font-size: 2.4em !important;
     padding-left: 20px !important;
   }
@@ -391,15 +391,53 @@ html, body, #root {
   .main-name {
     color: #414141;
   }
-  
-  .Typewriter__wrapper {
+   */
+/* Style for the Typewriter wrapper */
+.Typewriter__wrapper {
     font-size: 2.2em !important;
-    color: #414141 !important;
+    color: #414141  !important;
+    font-weight: 600 !important;
+    display: flex; /* Enable flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100%; /* Full width to ensure centering */
+    margin: 0 auto; /* Center horizontally */
+  }
+  
+  /* Style for the Typewriter cursor */
+  .Typewriter__cursor {
+    display: none !important;
+    /* font-size: 2.4em !important;
+    color: #414141 !important; */
+  }
+  
+  /* Mobile view adjustments */
+  @media (max-width: 767px) {
+    .Typewriter__wrapper {
+      font-size: 1.4em !important;
+      font-weight: 600 !important;
+      position: relative !important; /* Change to relative to fit better */
+      text-align: center; /* Ensure text is centered */
+      margin: 0 auto; /* Center the wrapper */
+      padding: 0; /* Remove any padding if necessary */
+    }
+    
+    .Typewriter__cursor {
+      /* font-size: 1.4em !important; 
+      color: #0a121d !important; */
+      display: none !important;
+    }
+  }
+  
+  
+  /* .Typewriter__wrapper {
+    font-size: 2.2em !important;
+    color: #0047AB !important;
     font-weight: 600 !important;
   }
   .Typewriter__cursor {
     font-size: 2.4em !important;
-    color: #414141 !important;
+    color: #0047AB !important;
   }
   
   @media (max-width: 767px) {
@@ -411,7 +449,7 @@ html, body, #root {
     .Typewriter__cursor {
       display: none !important;
     }
-  }
+  } */
   
   .myAvtar {
     justify-content: center !important;

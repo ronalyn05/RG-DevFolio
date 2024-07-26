@@ -19,7 +19,7 @@
 // src/index.js
 import React from "react";
 import ReactDOM from "react-dom";
-import "./style.css"; // Import your CSS file
+import "./style.css";
 import App from "./App";
 
 ReactDOM.render(

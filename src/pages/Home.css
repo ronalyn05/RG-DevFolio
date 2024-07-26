@@ -137,15 +137,34 @@
       max-width: 100%;
     }
   
-    .heading-type {
+    /* .heading-type {
       padding-left: 0;
       text-align: center; 
       justify-content: center;
 
+    } */
+    /* Ensure flexbox settings for centering */
+.heading-type {
+    display: flex; /* Enable flexbox layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically if needed */
+    width: auto; /* Ensure it takes full width */
+    text-align: center; /* Center text inside */
+    padding: 20px 0; /* Add some padding for spacing */
+  }
+  
+  /* Media query for responsive design */
+  @media (max-width: 768px) {
+    .heading-type {
+      /* Additional responsive styles if needed */
+      padding-left: 0;
+      padding-right: 0;
     }
+  }
+  
   
     .heading-name {
-      font-size: 2.5em !important;
+      font-size: 1.5em !important;
       padding-left: 0 !important;
     }
   
