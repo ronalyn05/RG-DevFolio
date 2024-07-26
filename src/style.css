@@ -1,0 +1,50 @@
+/* src/style.css */
+
+.home {
+    padding: 20px;
+  }
+  
+  .home-header {
+    text-align: center; /* Center the header text */
+    margin-bottom: 20px; /* Space below the header */
+  }
+  
+  .home-intro {
+    display: flex; /* Use Flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between the text and image */
+    padding: 20px; /* Add padding around the section */
+  }
+  
+  .home-intro-text {
+    flex: 1; /* Take up remaining space */
+    max-width: 60%; /* Limit the width of the text area */
+  }
+  
+  .home-intro-text p {
+    font-size: 1rem; /* Font size for the paragraph */
+    margin-bottom: 15px; /* Space below the paragraph */
+  }
+  
+  .home-links {
+    margin-top: 15px; /* Space above the links */
+  }
+  
+  .home-links a {
+    display: block; /* Stack links vertically */
+    margin-bottom: 10px; /* Space between links */
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .home-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .home-profile-picture {
+    width: 150px; /* Set width for the profile picture */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Circular profile picture */
+    margin-left: 20px; /* Space between the image and text */
+  }
+  

@@ -1,0 +1,42 @@
+/* src/components/Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Aligns logo and links to the edges */
+  align-items: center; /* Vertically centers the items */
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #333; /* Background color of the navbar */
+}
+
+.navbar-logo {
+  flex: 1; /* Allows logo section to take up space on the left */
+}
+
+.navbar-logo .logo {
+  height: 40px; /* Adjust the height of the logo as needed */
+  width: auto; /* Maintain aspect ratio */
+}
+
+.navbar-links {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Arrange links horizontally */
+  gap: 20px; /* Space between the links */
+}
+
+.navbar-links li {
+  margin: 0; /* Remove default margin on list items */
+}
+
+.navbar-links a {
+  text-decoration: none; /* Remove underline from links */
+  color: #fff; /* Link text color */
+  font-weight: bold; /* Make text bold */
+  font-size: 16px; /* Adjust font size as needed */
+}
+
+.navbar-links a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+    
