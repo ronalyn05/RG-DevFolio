@@ -23,7 +23,11 @@ footer {
   }
   
   /* Footer Text */
+  /* .footer-copywright {
+    margin-top: 20px;
+  } */
   .footer-copywright {
+    text-align: center !important;
     margin-top: 20px;
   }
   
@@ -34,8 +38,10 @@ footer {
   .footer h3 {
     font-size: 1em;
     color: white;
+    text-align: center;
     margin: 0.5em 0;
   }
+  
   
   /* Footer Icons */
   .footer-icons {
