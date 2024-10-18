@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RG-DevFolio/static/css/main.21a4a160.css",
-    "main.js": "/RG-DevFolio/static/js/main.1a9de0ca.js",
+    "main.js": "/RG-DevFolio/static/js/main.3c0f2a00.js",
     "static/media/profile.jpg": "/RG-DevFolio/static/media/profile.192ab62b614bdc93a59b.jpg",
     "static/media/CloudfirstQualityEngineering.CL12.ronalyn.giducos.pptx": "/RG-DevFolio/static/media/CloudfirstQualityEngineering.CL12.ronalyn.giducos.17ce18800c4fb263b436.pptx",
     "static/media/image_2.jpg": "/RG-DevFolio/static/media/image_2.9e14c1a8229f21372446.jpg",
@@ -13,10 +13,10 @@
     "static/media/mobile.png": "/RG-DevFolio/static/media/mobile.283c0b33cb45a2182ba0.png",
     "index.html": "/RG-DevFolio/index.html",
     "main.21a4a160.css.map": "/RG-DevFolio/static/css/main.21a4a160.css.map",
-    "main.1a9de0ca.js.map": "/RG-DevFolio/static/js/main.1a9de0ca.js.map"
+    "main.3c0f2a00.js.map": "/RG-DevFolio/static/js/main.3c0f2a00.js.map"
   },
   "entrypoints": [
     "static/css/main.21a4a160.css",
-    "static/js/main.1a9de0ca.js"
+    "static/js/main.3c0f2a00.js"
   ]
 }
