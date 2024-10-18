@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/RG-DevFolio/static/css/main.6032cdd9.css",
+    "main.js": "/RG-DevFolio/static/js/main.1a9de0ca.js",
+    "static/media/profile.jpg": "/RG-DevFolio/static/media/profile.192ab62b614bdc93a59b.jpg",
+    "static/media/CloudfirstQualityEngineering.CL12.ronalyn.giducos.pptx": "/RG-DevFolio/static/media/CloudfirstQualityEngineering.CL12.ronalyn.giducos.17ce18800c4fb263b436.pptx",
+    "static/media/image_2.jpg": "/RG-DevFolio/static/media/image_2.9e14c1a8229f21372446.jpg",
+    "static/media/mobile-maps.png": "/RG-DevFolio/static/media/mobile-maps.fea0aab216e56c5f2f41.png",
+    "static/media/javascript-cert.png": "/RG-DevFolio/static/media/javascript-cert.00f85945bea4aa4e25f6.png",
+    "static/media/logo1.png": "/RG-DevFolio/static/media/logo1.57154792aada50919f6b.png",
+    "static/media/mobile-2big.png": "/RG-DevFolio/static/media/mobile-2big.cf55dfe1c7f3b24d9ed0.png",
+    "static/media/image3.png": "/RG-DevFolio/static/media/image3.fe6423921c6fba7afc63.png",
+    "static/media/mobile.png": "/RG-DevFolio/static/media/mobile.283c0b33cb45a2182ba0.png",
+    "index.html": "/RG-DevFolio/index.html",
+    "main.6032cdd9.css.map": "/RG-DevFolio/static/css/main.6032cdd9.css.map",
+    "main.1a9de0ca.js.map": "/RG-DevFolio/static/js/main.1a9de0ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6032cdd9.css",
+    "static/js/main.1a9de0ca.js"
+  ]
+}
