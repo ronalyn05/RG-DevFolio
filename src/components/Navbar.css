@@ -1,12 +1,11 @@
 /* src/components/Navbar.css */
-
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
   background-color: #e5e7ec;
-  position: relative; /* Ensure the toggle button is positioned correctly */
+  position: relative; 
 }
 
 .navbar-logo {
@@ -43,21 +42,25 @@
 
 /* Mobile menu styles */
 .navbar-toggle {
-  display: none; /* Hide the toggle button by default */
+  display: none; 
   background: none;
   border: none;
   cursor: pointer;
   padding: 0;
   position: relative;
+  font-size: 24px; 
 }
 
+/* Close icon styling */
+.close-icon {
+  font-size: 24px; 
+  color: #0047AB; 
+}
+
+/* Hamburger icon styling */
 .navbar-toggle-icon {
-  display: block;
-  width: 25px;
-  height: 3px;
-  background-color: #0047AB;
-  margin: 5px 0;
-  transition: 0.3s;
+  font-size: 24px; 
+  color: #0047AB; 
 }
 
 /* Add styles for mobile menu when open */
@@ -65,7 +68,7 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 60px; /* Adjust based on navbar height */
+  top: 60px; 
   left: 0;
   right: 0;
   background-color: #e5e7ec;
@@ -75,19 +78,19 @@
 /* Show the toggle button and hide the links on small screens */
 @media (max-width: 768px) {
   .navbar-links {
-    display: none; /* Hide links on mobile by default */
+    display: none; 
   }
 
   .navbar-toggle {
-    display: block; /* Show the toggle button on mobile */
+    display: block;
   }
 
   .navbar-links.open {
-    display: flex; /* Show links when the menu is open */
+    display: flex; 
   }
 
   .navbar-links a {
-    font-size: 18px; /* Larger font size for better readability on mobile */
-    padding: 10px 20px; /* Add padding for touch targets */
+    font-size: 18px; 
+    padding: 10px 20px; 
   }
 }

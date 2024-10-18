@@ -17,9 +17,11 @@ const Navbar = () => {
         <img src={logo} alt="Logo" className="logo" />
       </div>
       <button className="navbar-toggle" onClick={toggleMobileMenu}>
-        <span className="navbar-toggle-icon"></span>
-        <span className="navbar-toggle-icon"></span>
-        <span className="navbar-toggle-icon"></span>
+        {isMobileMenuOpen ? (
+          <span className="close-icon">✖</span> // Close icon
+        ) : (
+          <span className="navbar-toggle-icon">☰</span> // Hamburger icon
+        )}
       </button>
       <ul className={`navbar-links ${isMobileMenuOpen ? "open" : ""}`}>
         <li>

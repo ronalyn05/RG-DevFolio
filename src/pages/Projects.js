@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import Footer from "../components/Footer";
 import { BiLinkExternal } from "react-icons/bi";
-import projectImage1 from "../assets/image3.png"; // Replace with your project image path
-import projectImage2 from "../assets/image2.jpg"; // Replace with your project image path
-import projectImage3 from "../assets/mobile.png"; // Add another image for the first project
-import projectImage4 from "../assets/mobile-2big.png"; // Add another image for the first project
-import projectImage5 from "../assets/mobile-maps.png"; // Add another image for the first project
+import projectImage1 from "../assets/image3.png";
+import projectImage2 from "../assets/image_2.jpg";
+import projectImage3 from "../assets/mobile.png";
+import projectImage4 from "../assets/mobile-2big.png";
+import projectImage5 from "../assets/mobile-maps.png";
 import "./Project.css";
 
 const Projects = () => {
@@ -14,21 +14,21 @@ const Projects = () => {
     {
       title: "2BIG - A Water Refilling Station Management System",
       description:
-        "The 2BiG: Water Refilling Station Management System is a mobile and web-based application designed to efficiently manage water refilling businesses. It offers features that focuses mainly on management for product and order (both online and walk-in order), delivery details and tracking, loyalty programs, employee account and records, report viewing, and inventory control.",
+        "The 2BiG: Water Refilling Station Management System is a mobile and web-based application designed to efficiently manage water refilling businesses. It offers features that focus mainly on management for product and order (both online and walk-in order), delivery details and tracking, loyalty programs, employee account and records, report viewing, and inventory control.",
       imgPaths: [projectImage1, projectImage3, projectImage4, projectImage5],
       link: "https://github.com/ronalyn05/WebApp-2big",
     },
     {
       title: "HRIS_EmployeeDB",
       description:
-        "This application is designed for HRAdmin. The features for an HRAdmin dashboard include secure login with password change prompts, employee data upload with automatic account creation and dynamic password generation via email, update functionalities for employee information, analytics for new hires and registered employees, filtering by status and facilities, search by name or ID, access control for salary rate visibility, employee report viewing and downloading, and additional features like forgot password and address mapping. Technologies used: React.js (Front-end), Node.js (Back-end), MSSQL (Database)",
+        "This application is designed for HRAdmin. The features for an HRAdmin dashboard include secure login with password change prompts, employee data upload with automatic account creation and dynamic password generation via email, update functionalities for employee information, analytics for new hires and registered employees, filtering by status and facilities, search by name or ID, access control for salary rate visibility, employee report viewing and downloading, and additional features like forgot password and address mapping. Technologies used: React.js (Front-end), Node.js (Back-end), MSSQL (Database).",
       imgPath: projectImage2,
       link: "https://github.com/ronalyn05/iAssist2.0_EmployeeDB",
     },
   ];
 
   return (
-    <div className="d-flex flex-column min-vh-50">
+    <div className="d-flex flex-column min-vh-100"  >
       <h1 className="project-heading">
         My Recent <strong className="purple">Works</strong>
       </h1>
@@ -39,7 +39,7 @@ const Projects = () => {
         <Row className="justify-content-center">
           {projects.map((project, index) => (
             <Col md={6} lg={4} className="mb-4" key={index}>
-              <Card className="project-card-view">
+              <Card className="project-card-view shadow-sm">
                 {Array.isArray(project.imgPaths) ? (
                   <div className="horizontal-scroll-container">
                     {project.imgPaths.map((imgPath, idx) => (
@@ -60,8 +60,8 @@ const Projects = () => {
                   />
                 )}
                 <Card.Body>
-                  <Card.Title>{project.title}</Card.Title>
-                  <Card.Text>{project.description}</Card.Text>
+                  <Card.Title className="font-weight-bold">{project.title}</Card.Title>
+                  <Card.Text className="text-muted">{project.description}</Card.Text>
                   <Button variant="primary" href={project.link} target="_blank">
                     <BiLinkExternal /> &nbsp; View Project
                   </Button>
@@ -71,6 +71,7 @@ const Projects = () => {
           ))}
         </Row>
       </Container>
+      
       <Footer className="mt-auto" />
     </div>
   );

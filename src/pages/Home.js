@@ -1,6 +1,6 @@
 import React from "react";
-import myImg from "../assets/image1.JPG";
-import resume from "../assets/Giducos_updated Resume.pdf";
+import myImg from "../assets/profile.jpg";
+import resume from "../assets/CloudfirstQualityEngineering.CL12.ronalyn.giducos.pptx";
 import Footer from "../components/Footer.js";
 import "./Home.css";
 import TypeWriter from "../pages/TypeWriter.js";
@@ -14,15 +14,12 @@ const Home = () => {
         <h1 className="greeting">
           Hello there! <span className="wave">👋</span>
         </h1>
-        {/* <h1>I'm Ronalyn Giducos!</h1> */}
         <h1 className="heading-name">
           I'M
           <strong className="main-name"> Ronalyn Giducos!</strong>
         </h1>
-        {/* <div className="job-titles">
-          <h4 className="software-engineer">Software Engineer</h4>
-        </div> */}
       </header>
+
       <div className="typewriter-wrapper">
         <TypeWriter />
       </div>
@@ -50,31 +47,50 @@ const Home = () => {
             </div>
             <div className="home-intro-card">
               <p>
-                I'm an IT fresh graduate with a passion for software
+                {/* I'm an IT fresh graduate with a passion for software
                 development. I'm a full-stack web developer with experience in
                 building responsive and user-centric websites using ReactJS and
-                NodeJS.
+                NodeJS. */}
+                As a newbie in the field, I focus on developing and executing
+                test scripts, documenting issues, and collaborating with teams
+                to ensure product quality gained through the company’s training
+                courses and through coursework at bootcamp. While I don’t have
+                project experience yet, I’m continuously upskilling and growing
+                my expertise in software testing through effective test
+                automation and functional testing.
               </p>
               <p>
-                I also have a strong background in ASP.Net Web Form-based
+                In addition to my strong focus on testing, I am a full-stack web
+                developer experienced in building responsive, user-centric
+                websites using ReactJS and NodeJS, as well as ASP.Net Web
+                Form-based applications gained through academic projects and
+                internship. My background in backend development with C# further
+                complements my skill set, enabling me to understand both the
+                development and testing aspects of software projects.{" "}
+              </p>
+              <p>
+                {/* I also have a strong background in ASP.Net Web Form-based
                 applications. I am continuously learning new languages and
-                methodologies to widen my knowledge in software development.
+                methodologies to widen my knowledge in software development. */}
+                I am committed to delivering innovative solutions that exceed
+                client expectations while driving technology initiatives to
+                success. Continuous learning is essential to my approach, and I
+                actively seek to expand my knowledge of programming languages
+                and methodologies, including C#, C, Java, HTML, CSS, and
+                JavaScript.
               </p>
-              {/* <strong>Please feel free to reach out to me!</strong>
-              <p>
-                Whether you want to get in touch or talk about a project
-                collaboration.
-              </p> */}
             </div>
           </div>
           <img src={myImg} alt="Profile" className="home-profile-picture" />
         </div>
       </section>
+
       <Container fluid className="home-about-section" id="about">
         <Container>
           <Row>
-            <Col md={12} className="home-about-social">
-              <h1>Get in Touch</h1>
+            {/* Right Side: Profile Picture and Get in Touch */}
+            <Col md={12} className="about-social-section">
+              <h3>Get in Touch</h3>
               <p>
                 {" "}
                 Whether you want to get in touch, or talk about a project

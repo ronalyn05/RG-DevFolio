@@ -80,8 +80,8 @@
   .home-profile-picture {
     width: auto;
     height: auto;
-    max-height: 300px;
-    border-radius: 50%;
+    max-height: 350px;
+    border-radius: 10%;
     object-fit: cover;
   }
   

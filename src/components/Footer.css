@@ -1,63 +1,25 @@
 /* FOOTER STYLES */
 
-/* General Footer Styling */
-footer {
-    padding: 20px;
-    background-color: #f1f1f1; 
-    text-align: center;
-    width: 100%;
-    margin-top: 40px;
-  }
-  
-  /* Footer Container */
+    
+
   .footer {
+    /* background-color: #f1f1f1;  */
     background-color: #343e47;
-    width: 100%;
-    color: white; 
-  }
-  
-  /* Footer Content */
-  .footer-content {
     padding: 20px;
     text-align: center;
+    position: relative; /* Ensure it behaves correctly */
+    bottom: 0; /* Stick it to the bottom if necessary */
+    width: 100%; /* Full width */
   }
   
-  /* Footer Text */
-  /* .footer-copywright {
-    margin-top: 20px;
-  } */
   .footer-copywright {
-    text-align: center !important;
-    margin-top: 20px;
+    flex: 1; /* Distribute space evenly */
   }
   
   .footer-body {
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
-  .footer h3 {
-    font-size: 1em;
-    color: white;
-    text-align: center;
-    margin: 0.5em 0;
-  }
-  
-  
-  /* Footer Icons */
-  .footer-icons {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    padding: 0;
-  }
-  
-  /* Responsive Footer Styling */
-  @media (max-width: 767px) {
-    .footer-content {
-      padding: 15px;
-    }
-  
-    .footer h3 {
-      font-size: 0.9em;
-    }
-  }
   
