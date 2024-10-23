@@ -1,19 +1,15 @@
 /* FOOTER STYLES */
-
-    
-
   .footer {
-    /* background-color: #f1f1f1;  */
     background-color: #343e47;
     padding: 20px;
     text-align: center;
-    position: relative; /* Ensure it behaves correctly */
-    bottom: 0; /* Stick it to the bottom if necessary */
-    width: 100%; /* Full width */
+    position: relative; 
+    bottom: 0;
+    width: 100%; 
   }
   
   .footer-copywright {
-    flex: 1; /* Distribute space evenly */
+    flex: 1;
   }
   
   .footer-body {

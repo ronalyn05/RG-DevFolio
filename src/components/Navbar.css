@@ -63,7 +63,7 @@
   color: #0047AB; 
 }
 
-/* Add styles for mobile menu when open */
+/* styles for mobile menu when open */
 .navbar-links.open {
   display: flex;
   flex-direction: column;

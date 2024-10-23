@@ -2,7 +2,7 @@ import React from "react";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedinIn } from "react-icons/fa";
-import { BsFillGeoAltFill } from "react-icons/bs"; // Import a geo icon
+import { BsFillGeoAltFill } from "react-icons/bs";
 
 function SocialMedia() {
   return (

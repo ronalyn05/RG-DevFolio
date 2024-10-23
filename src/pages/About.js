@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import myImg from "../assets/profile.jpg";
-import certificateImg from "../assets/javascript-cert.png"; // Ensure to import your certificate image
+import certificateImg from "../assets/javascript-cert.png";
 import Footer from "../components/Footer";
 import SocialMedia from "../components/SocialMedia";
 import "./About.css";
@@ -11,7 +11,8 @@ const About = () => {
     <div className="about-container">
       <header className="about-header">
         <h1 className="greeting">
-          Know More About <span className="main-name">Ronalyn Giducos</span>
+          Know More About &nbsp;&nbsp;{" "}
+          <span className="main-name">Ronalyn Giducos</span>
         </h1>
       </header>
 

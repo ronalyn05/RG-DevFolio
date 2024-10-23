@@ -1,13 +1,12 @@
 /* Heading Typewriter effect */
 .heading-type {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically if needed */
+    justify-content: center; 
+    align-items: center; 
     width: 100%;
-    padding: 20px 0; /* Add some padding for spacing */
+    padding: 20px 0; 
   }
   
-  /* Other existing styles */
   .home-container {
     display: flex;
     flex-direction: column;
